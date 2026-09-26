@@ -1,0 +1,39 @@
+# Python bytecode and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration
+# Keep the example template versioned, but never commit local paths/settings.
+phd2_dither_analyzer.properties
+*.local.properties
+
+# PHD2 logs and generated analysis outputs
+*.log
+*GuideLog*.txt
+analysis/
+*_dither_report.txt
+*_dithers.csv
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated PHD2 analysis reports
+/reports/

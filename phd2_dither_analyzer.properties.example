@@ -1,0 +1,10 @@
+# PHD2 Session Analyzer configuration
+#
+# Path to PHD2 guide logs. It may be:
+#   - A directory containing guide logs.
+#   - A single PHD2 guide-log file.
+#   - A glob pattern matching one or more guide logs.
+#
+# If the path resolves to more than one file, the analyzer selects
+# the most recently modified log.
+phd2.logs.path=C:/Users/YourUser/Documents/PHD2/*GuideLog*.txt
